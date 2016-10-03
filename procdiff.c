@@ -1,7 +1,7 @@
 /* -*- Mode: C; tab-width: 4 -*-  */
 /*
  * procdiff.c
- * Copyright (C) 2016 Luala
+ * Copyright (C) 2016 LLLfff 
  *
  */
 #include <stdlib.h>
@@ -412,8 +412,8 @@ int main(int argc, char *argv[])
     /* Below unreachable code, keep logic here
      * in case change the above loop with conditions
      */
-    list_reset(cur_list);
-    list_reset(prev_list);
+    list_clear(cur_list);
+    list_clear(prev_list);
 
     return 0;
 }
